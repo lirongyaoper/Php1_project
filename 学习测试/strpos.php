@@ -19,6 +19,8 @@ if(strpos($http,"https") ===0){
     echo "安全连接";
 }
 
+
+
 $text = "This is a sample text";
 $search = ["sample", "test"];
 foreach ($search as $word) {
