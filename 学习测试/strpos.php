@@ -28,3 +28,8 @@ foreach ($search as $word) {
         echo "Found $word";
     }
 }
+
+
+$str = "abc abc abc";
+$pos = strpos($str, "abc", 5);
+var_dump($pos);
